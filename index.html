@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THAPA AMRIT Portfolio | Web Designer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="light-mode">
+
+    <header>
+        <nav>
+            <div class="logo">AMRIT.</div>
+            <button id="theme-toggle" aria-label="テーマ切り替え">
+                <i class="fas fa-moon"></i>
+            </button>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content reveal">
+            <h1>Colors Logic, <span class="accent-text">Designs Magic.</span></h1>
+            <p class="sub-copy">
+                色彩検定1級の知識と確かなコーディング技術で、企業の思いを「伝わる」形に。<br>
+                CVR向上に貢献するWEBデザインをご提供します。
+            </p>
+            <div class="cta-group">
+                <a href="#works" class="btn btn-primary">実績を見る</a>
+                <a href="#contact" class="btn btn-secondary">お問い合わせ</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container reveal">
+            <h2 class="section-title">私について</h2>
+            <div class="about-flex">
+                <div class="profile-img">
+                    <div class="placeholder-img">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>私の名前は <strong>THAPA AMRIT</strong> です。</h3>
+                    <p>はじめまして、WEBデザイナーのTHAPA AMRITです。</p>
+                    <p>栃木県のTBC学院で2年間、WEBデザインを勉強してきました。現在はフリーランスとして東京で活動しています。</p>
+                    <div class="strengths">
+                        <h4>強み：多言語対応</h4>
+                        <p>日本語（JLPT：N1）、英語、スペイン語、ヒンディー語、ネパール語など、多様な言語に対応した国際的なウェブページ作成が可能です。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container reveal">
+            <h2 class="section-title">お問い合わせ</h2>
+            <p class="contact-lead">制作のご依頼、お見積り、その他のご相談はお気軽にどうぞ。2営業日以内に返信します。</p>
+            
+            <form class="contact-form">
+                <div class="form-group">
+                    <label>お名前</label>
+                    <input type="text" required placeholder="山田 太郎">
+                </div>
+                <div class="form-group">
+                    <label>メールアドレス</label>
+                    <input type="email" required placeholder="example@mail.com">
+                </div>
+                <div class="form-group">
+                    <label>お問い合わせ内容</label>
+                    <textarea rows="5" required placeholder="ご相談内容をご記入ください"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">送信する</button>
+            </form>
+
+            <div class="social-links">
+                <a href="#"><i class="fab fa-x-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 THAPA AMRIT. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
